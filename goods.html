@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Goods</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<nav>
+			<div class="container">
+				<div class="nav__row">
+					<div class="logo"><a href="./index.html">Logo</a></div>
+
+					<ul>
+						<li class="active">Goods</li>
+						<li><a href="./about.html">About us</a></li>
+						<li><a href="./projects.html">Projects</a></li>
+						<li><a href="./contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<div class="container">
+				<div class="main">
+					<div class="main__img">
+						<img src="./img/2 (5).png" alt="" />
+					</div>
+
+					<div class="main__media">
+						<div class="h1">Buy sneakers quickly and easily</div>
+						<div class="price">30$<del>75$</del></div>
+						<div class="btn-cont">
+							<div class="btm-m">Other</div>
+							<button>Buy sneakers</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			© 2024
+			<p>Deulenko Ilya</p>
+		</footer>
+
+		<script>
+			document.querySelector('.burger').addEventListener('click', function () {
+				this.classList.toggle('activ')
+				document.querySelector('.nav-list').classList.toggle('open')
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Projects</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<nav>
+			<div class="container">
+				<div class="nav__row">
+					<div class="logo"><a href="./index.html">Logo</a></div>
+
+					<ul>
+						<li><a href="./goods.html">Goods</a></li>
+						<li><a href="./about.html">About us</a></li>
+						<li class="active">Projects</li>
+						<li><a href="./contact.html">Contact</a></li>
+					</ul>
+
+					<!-- Иконка бургерменю -->
+					<div class="burger">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<section>
+			<div class="container">
+				<div class="section">
+					<div class="section-img">
+						<img src="./img/4.png" alt="" />
+					</div>
+
+					<div class="content-list">
+						<h1 class="title-1">Projects</h1>
+						<div class="text">
+							Pellentesque tempor leo nec lectus sodales, id accumsan metus
+							feugiat. Aliquam non molestie dui. In rhoncus imperdiet nunc nec
+							blandit. Ut fermentum auctor ligula, efficitur sodales dui
+							vehicula nec. In gravida et risus quis condimentum. Aliquam ac
+							gravida massa, nec venenatis ligula. Suspendisse potenti. Mauris
+							finibus et dui ac viverra. Cras et dolor rutrum, convallis nibh
+							sit amet, varius lectus. Cras semper orci vitae nisl mattis, in
+							ornare justo pharetra. Etiam porta, eros eget luctus ultricies,
+							enim magna cursus nunc, quis accumsan urna nisl sit amet felis.
+							Mauris eu lectus pulvinar, lobortis felis quis, rutrum lacus. Duis
+							faucibus quis est ullamcorper suscipit. Pellentesque tempor leo
+							nec lectus sodales, id accumsan metus feugiat. Aliquam non
+							molestie dui. In rhoncus imperdiet nunc nec blandit. Ut fermentum
+							auctor ligula, efficitur sodales dui vehicula nec. In gravida et
+							risus quis condimentum. Aliquam ac gravida massa, nec venenatis
+							ligula. Suspendisse potenti. Mauris finibus et dui ac viverra.
+							Cras et dolor rutrum, convallis nibh sit amet, varius lectus. Cras
+							semper orci vitae nisl mattis, in ornare justo pharetra. Etiam
+							porta.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			© 2024
+			<p>Deulenko Ilya</p>
+		</footer>
+
+		<script>
+			document.querySelector('.burger').addEventListener('click', function () {
+				this.classList.toggle('activ')
+				document.querySelector('.nav-list').classList.toggle('open')
+			})
+		</script>
+	</body>
+</html>

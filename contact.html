@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<nav>
+			<div class="container">
+				<div class="nav__row">
+					<div class="logo"><a href="./index.html">Logo</a></div>
+
+					<ul>
+						<li><a href="./goods.html">Goods</a></li>
+						<li><a href="./about.html">About us</a></li>
+						<li><a href="./projects.html">Projects</a></li>
+						<li class="active">Contact</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section>
+			<div class="container">
+				<div class="section_1">
+					<div class="img3">
+						<img src="./img/3.jpg" alt="" />
+					</div>
+
+					<ul class="content-list_3">
+						<h1 class="title-1">Contacts</h1>
+						<li class="content-list__item">
+							<h3 class="title-2">Location</h3>
+							<p>Kharkov, Ukraine</p>
+						</li>
+
+						<li class="content-list__item">
+							<h3 class="title-2">Telegram / WhatsApp</h3>
+							<p><a href="tel:(00) 000-00-00">+38 (050) 111-11-11</a></p>
+						</li>
+
+						<li class="content-list__item">
+							<h3 class="title-2">Email</h3>
+							<p><a href="mailto:008@gmail.com.ua">Ilya@gmail.com.ua</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			© 2024
+			<p>Deulenko Ilya</p>
+		</footer>
+
+		<script>
+			document.querySelector('.burger').addEventListener('click', function () {
+				this.classList.toggle('activ')
+				document.querySelector('.nav-list').classList.toggle('open')
+			})
+		</script>
+	</body>
+</html>
