@@ -38,7 +38,8 @@ nav {
 .nav__row ul {
 	margin: 0;
 }
-.logo {
+.logo,
+.logo a {
 	font-size: 35px;
 	cursor: pointer;
 
@@ -193,10 +194,12 @@ button:hover {
 .container__text {
 	display: flex;
 	padding: 0 25px;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .media {
-	max-width: 650px;
+	width: 45%;
 }
 
 h2 {
@@ -207,6 +210,7 @@ h2 {
 }
 
 .text {
+	width: 100%;
 	font-size: 18px;
 	color: white;
 	margin-top: 20px;
@@ -214,7 +218,7 @@ h2 {
 }
 
 .media-right {
-	max-width: 650px;
+	width: 45%;
 	margin-left: 40px;
 }
 /* //about */
@@ -356,6 +360,31 @@ h3 {
 
 .open {
 	display: flex !important;
+}
+
+@media (max-width: 1115px) {
+	.img3 {
+		max-width: 500px;
+	}
+}
+
+@media (max-width: 1025px) {
+	.title-1 {
+		padding: 30px 0 15px;
+		font-size: 35px;
+	}
+	.text {
+		font-size: 16px;
+		max-width: 400px;
+		margin-top: 0;
+	}
+	h2 {
+		font-size: 35px;
+	}
+	h3 {
+		font-size: 20px;
+		margin: 15px 0;
+	}
 }
 
 /* При разрешении экрана 900px и ниже, выводим на экран иконку бургера */
